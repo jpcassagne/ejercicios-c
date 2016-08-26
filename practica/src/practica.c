@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main() {
 
 	printf("!!!Hola Mundo!!!\n");
 
@@ -16,5 +16,5 @@ int main(void) {
 	fgets(texto,256,stdin);
 	printf("El texto ingresado es: %s",texto);
 
-	return EXIT_SUCCESS;
+	return 0;
 }
